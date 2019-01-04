@@ -1,0 +1,6 @@
+module Pods_tea_mall_ios {
+  umbrella header "Pods-tea-mall-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

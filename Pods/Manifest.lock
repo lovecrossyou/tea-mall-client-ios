@@ -1,12 +1,16 @@
 PODS:
-  - AFNetworking (1.3.4)
+  - Alamofire (4.7.3)
 
 DEPENDENCIES:
-  - AFNetworking (~> 1.0)
+  - Alamofire
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
 
 SPEC CHECKSUMS:
-  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
 
-PODFILE CHECKSUM: 6f24beea33f603f764436a94ce000da681cbd3f5
+PODFILE CHECKSUM: 72179dceb3d8020d103a13365a2a632e809fded6
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

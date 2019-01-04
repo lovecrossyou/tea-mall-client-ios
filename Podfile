@@ -1,2 +1,5 @@
-target 'tea-mall-ios'
-pod 'AFNetworking', '~> 1.0'
+platform :ios, '9.0'
+
+target 'tea-mall-ios' do
+    pod 'Alamofire'
+end
