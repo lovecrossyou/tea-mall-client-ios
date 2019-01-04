@@ -1,0 +1,8 @@
+app_identifier("com.teamodel.teamodel") # The bundle identifier of your app
+apple_id("huipay@huipay.com") # Your Apple email address
+
+itc_team_id("3074800") # iTunes Connect Team ID
+team_id("VE3N87A48U") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
