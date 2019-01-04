@@ -12,7 +12,7 @@
 		20F0DC1A21DEF5C1004DF885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1821DEF5C1004DF885 /* Main.storyboard */; };
 		20F0DC1C21DEF5C1004DF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1B21DEF5C1004DF885 /* Assets.xcassets */; };
 		20F0DC1F21DEF5C1004DF885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1D21DEF5C1004DF885 /* LaunchScreen.storyboard */; };
-		21AFCADEF9739E121DB4A951 /* libPods-tea-mall-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A62E369A59D14B82593A182 /* libPods-tea-mall-ios.a */; };
+		803D89295658D82BA6E3E243 /* Pods_tea_mall_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		20F0DC1E21DEF5C1004DF885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F0DC2021DEF5C1004DF885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0FC27DF88F54318851FF63 /* Pods-tea-mall-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tea-mall-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios.release.xcconfig"; sourceTree = "<group>"; };
-		7A62E369A59D14B82593A182 /* libPods-tea-mall-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tea-mall-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tea_mall_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AFCADEF9739E121DB4A951 /* libPods-tea-mall-ios.a in Frameworks */,
+				803D89295658D82BA6E3E243 /* Pods_tea_mall_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		FA3CED7DCA19BB4D265F4102 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A62E369A59D14B82593A182 /* libPods-tea-mall-ios.a */,
+				EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,9 +198,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
