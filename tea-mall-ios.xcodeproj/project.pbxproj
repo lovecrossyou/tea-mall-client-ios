@@ -7,16 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20F0DC1521DEF5C1004DF885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0DC1421DEF5C1004DF885 /* AppDelegate.swift */; };
-		20F0DC1721DEF5C1004DF885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0DC1621DEF5C1004DF885 /* ViewController.swift */; };
+		2041FB4321EED4E500179647 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3021EED4E500179647 /* PersonalViewController.swift */; };
+		2041FB4421EED4E500179647 /* NextHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3221EED4E500179647 /* NextHomeViewController.swift */; };
+		2041FB4521EED4E500179647 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3321EED4E500179647 /* HomeViewController.swift */; };
+		2041FB4621EED4E500179647 /* NextHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2041FB3421EED4E500179647 /* NextHomeViewController.xib */; };
+		2041FB4721EED4E500179647 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3621EED4E500179647 /* ConnectionViewController.swift */; };
+		2041FB4821EED4E500179647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3821EED4E500179647 /* ViewController.swift */; };
+		2041FB4921EED4E500179647 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3921EED4E500179647 /* UIColor+Extension.swift */; };
+		2041FB4A21EED4E500179647 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3A21EED4E500179647 /* ColorExtensions.swift */; };
+		2041FB4B21EED4E500179647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3B21EED4E500179647 /* AppDelegate.swift */; };
+		2041FB4C21EED4E500179647 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3D21EED4E500179647 /* MessageViewController.swift */; };
+		2041FB4D21EED4E500179647 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB3F21EED4E500179647 /* PublishViewController.swift */; };
+		2041FB4E21EED4E500179647 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB4121EED4E500179647 /* MainTabBarController.swift */; };
+		2041FB4F21EED4E500179647 /* CYLPlusButtonSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041FB4221EED4E500179647 /* CYLPlusButtonSubclass.swift */; };
+		2041FB5121EED56700179647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2041FB5021EED56700179647 /* Assets.xcassets */; };
 		20F0DC1A21DEF5C1004DF885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1821DEF5C1004DF885 /* Main.storyboard */; };
-		20F0DC1C21DEF5C1004DF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1B21DEF5C1004DF885 /* Assets.xcassets */; };
 		20F0DC1F21DEF5C1004DF885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1D21DEF5C1004DF885 /* LaunchScreen.storyboard */; };
 		803D89295658D82BA6E3E243 /* Pods_tea_mall_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		202188A04F28AE8E62C6C41B /* Pods-tea-mall-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tea-mall-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		2041FB3021EED4E500179647 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		2041FB3221EED4E500179647 /* NextHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextHomeViewController.swift; sourceTree = "<group>"; };
+		2041FB3321EED4E500179647 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2041FB3421EED4E500179647 /* NextHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextHomeViewController.xib; sourceTree = "<group>"; };
+		2041FB3621EED4E500179647 /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		2041FB3821EED4E500179647 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2041FB3921EED4E500179647 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		2041FB3A21EED4E500179647 /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		2041FB3B21EED4E500179647 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2041FB3D21EED4E500179647 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		2041FB3F21EED4E500179647 /* PublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		2041FB4121EED4E500179647 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2041FB4221EED4E500179647 /* CYLPlusButtonSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLPlusButtonSubclass.swift; sourceTree = "<group>"; };
+		2041FB5021EED56700179647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "tea-mall-ios/Assets.xcassets"; sourceTree = "<group>"; };
 		20F0DC1121DEF5C1004DF885 /* tea-mall-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tea-mall-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F0DC1421DEF5C1004DF885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F0DC1621DEF5C1004DF885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,12 +74,91 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2041FB2E21EED4E500179647 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB2F21EED4E500179647 /* Personal */,
+				2041FB3121EED4E500179647 /* Home */,
+				2041FB3521EED4E500179647 /* Connection */,
+				2041FB3721EED4E500179647 /* Other */,
+				2041FB3C21EED4E500179647 /* Message */,
+				2041FB3E21EED4E500179647 /* Publish */,
+				2041FB4021EED4E500179647 /* Main */,
+			);
+			name = Classes;
+			path = "tea-mall-ios/Classes";
+			sourceTree = "<group>";
+		};
+		2041FB2F21EED4E500179647 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB3021EED4E500179647 /* PersonalViewController.swift */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		2041FB3121EED4E500179647 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB3221EED4E500179647 /* NextHomeViewController.swift */,
+				2041FB3321EED4E500179647 /* HomeViewController.swift */,
+				2041FB3421EED4E500179647 /* NextHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2041FB3521EED4E500179647 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB3621EED4E500179647 /* ConnectionViewController.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		2041FB3721EED4E500179647 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB3821EED4E500179647 /* ViewController.swift */,
+				2041FB3921EED4E500179647 /* UIColor+Extension.swift */,
+				2041FB3A21EED4E500179647 /* ColorExtensions.swift */,
+				2041FB3B21EED4E500179647 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2041FB3C21EED4E500179647 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB3D21EED4E500179647 /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2041FB3E21EED4E500179647 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB3F21EED4E500179647 /* PublishViewController.swift */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		2041FB4021EED4E500179647 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2041FB4121EED4E500179647 /* MainTabBarController.swift */,
+				2041FB4221EED4E500179647 /* CYLPlusButtonSubclass.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		20F0DC0821DEF5C1004DF885 = {
 			isa = PBXGroup;
 			children = (
+				2041FB2E21EED4E500179647 /* Classes */,
 				20F0DC1321DEF5C1004DF885 /* tea-mall-ios */,
 				20F0DC1221DEF5C1004DF885 /* Products */,
 				0B56174B7F64580522EC2F68 /* Pods */,
+				2041FB5021EED56700179647 /* Assets.xcassets */,
 				FA3CED7DCA19BB4D265F4102 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -151,8 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F0DC1F21DEF5C1004DF885 /* LaunchScreen.storyboard in Resources */,
-				20F0DC1C21DEF5C1004DF885 /* Assets.xcassets in Resources */,
+				2041FB4621EED4E500179647 /* NextHomeViewController.xib in Resources */,
 				20F0DC1A21DEF5C1004DF885 /* Main.storyboard in Resources */,
+				2041FB5121EED56700179647 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,10 +305,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,8 +324,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F0DC1721DEF5C1004DF885 /* ViewController.swift in Sources */,
-				20F0DC1521DEF5C1004DF885 /* AppDelegate.swift in Sources */,
+				2041FB4521EED4E500179647 /* HomeViewController.swift in Sources */,
+				2041FB4F21EED4E500179647 /* CYLPlusButtonSubclass.swift in Sources */,
+				2041FB4721EED4E500179647 /* ConnectionViewController.swift in Sources */,
+				2041FB4321EED4E500179647 /* PersonalViewController.swift in Sources */,
+				2041FB4821EED4E500179647 /* ViewController.swift in Sources */,
+				2041FB4A21EED4E500179647 /* ColorExtensions.swift in Sources */,
+				2041FB4421EED4E500179647 /* NextHomeViewController.swift in Sources */,
+				2041FB4E21EED4E500179647 /* MainTabBarController.swift in Sources */,
+				2041FB4C21EED4E500179647 /* MessageViewController.swift in Sources */,
+				2041FB4D21EED4E500179647 /* PublishViewController.swift in Sources */,
+				2041FB4B21EED4E500179647 /* AppDelegate.swift in Sources */,
+				2041FB4921EED4E500179647 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
