@@ -27,6 +27,11 @@ class PublishViewController: UIViewController {
         //添加wkwebview
         self.view.addSubview(webview)
         
+//        设置导航条
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.barStyle = .blackOpaque
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+
     
         // Do any additional setup after loading the view.
     }
