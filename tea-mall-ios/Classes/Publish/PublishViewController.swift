@@ -16,10 +16,10 @@ class PublishViewController: UIViewController {
 
         //创建wkwebview
         let webConfiguration = WKWebViewConfiguration()
-
-        let webview = WKWebView(frame: self.view.bounds,configuration: webConfiguration)
+        let frame = CGRect(x:0,y:64,width:self.view.bounds.size.width,height:self.view.bounds.size.height-64-50)
+        let webview = WKWebView(frame: frame,configuration: webConfiguration)
         //创建网址
-        let url = NSURL(string: "http://192.168.1.235:8099/h5/#/home")
+        let url = NSURL(string: "http://192.168.199.101:8099/h5/#/home")
         //创建请求
         let request = NSURLRequest(url: url! as URL)
         //加载请求
