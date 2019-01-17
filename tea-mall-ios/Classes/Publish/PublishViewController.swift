@@ -21,7 +21,9 @@ class PublishViewController: UIViewController {
         //创建网址
         let url = NSURL(string: "http://192.168.1.235:8099/h5/")
         let webview = WKWebView()
-        let view = UIView()
+        if #available(iOS 11.0, *) {
+            webview.scrollView.contentInsetAdjustmentBehavior = .never;
+        }
         view.backgroundColor  = UIColor.red
     
         superview!.addSubview(webview)
