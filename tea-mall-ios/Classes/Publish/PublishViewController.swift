@@ -8,28 +8,37 @@
 
 import UIKit
 import WebKit
+import SnapKit
+
 class PublishViewController: UIViewController {
     var webview = WKWebView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //创建wkwebview
-        let webConfiguration = WKWebViewConfiguration()
-
-
+    
+        let superview = self.view
+        superview!.backgroundColor = UIColor.white
         //创建网址
-        let url = NSURL(string: "http://192.168.1.235:8090/")
-        let frame = CGRect(x:0,y:64,width:self.view.bounds.size.width,height:self.view.bounds.size.height-64-50)
-        let webview = WKWebView(frame: frame,configuration: webConfiguration)
-        //创建网址
-        _ = NSURL(string: "http://192.168.199.101:8099/h5/#/home")
+        let url = NSURL(string: "http://192.168.1.235:8099/h5/home#/limitbuy")
+        let webview = WKWebView()
+        superview!.addSubview(webview)
+        
+        webview.snp.makeConstraints { (make) in
+            if #available(iOS 11.0, *) {
+                make.top.equalTo(superview!.safeAreaLayoutGuide.snp.top)
+            } else {
+                make.top.equalTo(superview!).offset(0)
+            }
+            make.left.equalTo(superview!).offset(0)
+            make.right.equalTo(superview!).offset(0)
+            make.bottom.equalTo(superview!).offset(0)
+        }
+        
         //创建请求
         let request = NSURLRequest(url: url! as URL)
         //加载请求
         webview.load(request as URLRequest)
         //添加wkwebview
-        self.view.addSubview(webview)
         
 //        设置导航条
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
