@@ -16,22 +16,14 @@ class PublishViewController: UIViewController {
 
         //创建wkwebview
         let webConfiguration = WKWebViewConfiguration()
-<<<<<<< HEAD
 
-        let webview = WKWebView(frame: self.view.bounds,configuration: webConfiguration)
-        if #available(iOS 11.0, *) {
-            webview.scrollView.contentInsetAdjustmentBehavior = .never
-        } else {
-            // Fallback on earlier versions
-        }
+
         //创建网址
         let url = NSURL(string: "http://192.168.1.235:8090/")
-=======
         let frame = CGRect(x:0,y:64,width:self.view.bounds.size.width,height:self.view.bounds.size.height-64-50)
         let webview = WKWebView(frame: frame,configuration: webConfiguration)
         //创建网址
-        let url = NSURL(string: "http://192.168.199.101:8099/h5/#/home")
->>>>>>> edafd70869b95121440152e3c4648d44d6a44e3b
+        _ = NSURL(string: "http://192.168.199.101:8099/h5/#/home")
         //创建请求
         let request = NSURLRequest(url: url! as URL)
         //加载请求
