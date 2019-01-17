@@ -19,19 +19,17 @@ class PublishViewController: UIViewController {
         let superview = self.view
         superview!.backgroundColor = UIColor.white
         //创建网址
-        let url = NSURL(string: "http://192.168.1.235:8099/h5/home#/limitbuy")
+        let url = NSURL(string: "http://192.168.1.235:8099/h5/")
         let webview = WKWebView()
+        let view = UIView()
+        view.backgroundColor  = UIColor.red
+    
         superview!.addSubview(webview)
-        
         webview.snp.makeConstraints { (make) in
-            if #available(iOS 11.0, *) {
-                make.top.equalTo(superview!.safeAreaLayoutGuide.snp.top)
-            } else {
-                make.top.equalTo(superview!).offset(0)
-            }
+            make.top.equalTo(superview!).offset(0)
             make.left.equalTo(superview!).offset(0)
             make.right.equalTo(superview!).offset(0)
-            make.bottom.equalTo(superview!).offset(0)
+            make.bottom.equalTo(superview!).offset(-85)
         }
         
         //创建请求
