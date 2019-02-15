@@ -24,6 +24,7 @@
 		20F0DC1A21DEF5C1004DF885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1821DEF5C1004DF885 /* Main.storyboard */; };
 		20F0DC1F21DEF5C1004DF885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1D21DEF5C1004DF885 /* LaunchScreen.storyboard */; };
 		803D89295658D82BA6E3E243 /* Pods_tea_mall_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */; };
+		A798851B21F1A44A007FC0DB /* WKWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798851A21F1A44A007FC0DB /* WKWebviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		20F0DC1E21DEF5C1004DF885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F0DC2021DEF5C1004DF885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0FC27DF88F54318851FF63 /* Pods-tea-mall-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tea-mall-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios.release.xcconfig"; sourceTree = "<group>"; };
+		A798851A21F1A44A007FC0DB /* WKWebviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewController.swift; sourceTree = "<group>"; };
 		EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tea_mall_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 				2041FB3921EED4E500179647 /* UIColor+Extension.swift */,
 				2041FB3A21EED4E500179647 /* ColorExtensions.swift */,
 				2041FB3B21EED4E500179647 /* AppDelegate.swift */,
+				A798851A21F1A44A007FC0DB /* WKWebviewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -204,7 +207,6 @@
 				20F0DC0E21DEF5C1004DF885 /* Frameworks */,
 				20F0DC0F21DEF5C1004DF885 /* Resources */,
 				FAF82F643F0D7A44796E3A9E /* [CP] Embed Pods Frameworks */,
-				DFD887AD57D7956BAAADFBB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,21 +284,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DFD887AD57D7956BAAADFBB7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FAF82F643F0D7A44796E3A9E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +315,7 @@
 			files = (
 				2041FB4521EED4E500179647 /* HomeViewController.swift in Sources */,
 				2041FB4F21EED4E500179647 /* CYLPlusButtonSubclass.swift in Sources */,
+				A798851B21F1A44A007FC0DB /* WKWebviewController.swift in Sources */,
 				2041FB4721EED4E500179647 /* ConnectionViewController.swift in Sources */,
 				2041FB4321EED4E500179647 /* PersonalViewController.swift in Sources */,
 				2041FB4821EED4E500179647 /* ViewController.swift in Sources */,
