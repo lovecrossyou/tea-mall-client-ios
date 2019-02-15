@@ -25,6 +25,26 @@
 		20F0DC1F21DEF5C1004DF885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0DC1D21DEF5C1004DF885 /* LaunchScreen.storyboard */; };
 		803D89295658D82BA6E3E243 /* Pods_tea_mall_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */; };
 		A798851B21F1A44A007FC0DB /* WKWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798851A21F1A44A007FC0DB /* WKWebviewController.swift */; };
+		A7F2D5F62216A15300A8340D /* PLSStickerSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5E72216A15300A8340D /* PLSStickerSelectView.m */; };
+		A7F2D5F72216A15300A8340D /* PLSStickerOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5ED2216A15300A8340D /* PLSStickerOverlayView.m */; };
+		A7F2D5F82216A15300A8340D /* PLSDeleteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5EE2216A15300A8340D /* PLSDeleteButton.m */; };
+		A7F2D5F92216A15300A8340D /* PLSStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5EF2216A15300A8340D /* PLSStickerView.m */; };
+		A7F2D5FA2216A15300A8340D /* PLSMusicSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5F02216A15300A8340D /* PLSMusicSelectView.m */; };
+		A7F2D5FB2216A15300A8340D /* PLSAudioVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5F22216A15300A8340D /* PLSAudioVolumeView.m */; };
+		A7F2D5FC2216A15300A8340D /* PLSProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5F32216A15300A8340D /* PLSProgressBar.m */; };
+		A7F2D5FD2216A15300A8340D /* PLSVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5F42216A15300A8340D /* PLSVerticalButton.m */; };
+		A7F2D5FE2216A15300A8340D /* PLSFilterGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D5F52216A15300A8340D /* PLSFilterGroup.m */; };
+		A7F2D8AC2216B4B500A8340D /* UIView+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D8A62216B4B400A8340D /* UIView+Alert.m */; };
+		A7F2D8AD2216B4B500A8340D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D8A92216B4B500A8340D /* EditViewController.m */; };
+		A7F2D8AE2216B4B500A8340D /* RecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D8AA2216B4B500A8340D /* RecordingViewController.m */; };
+		A7F2D8B72216B4E400A8340D /* Greenery.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8AF2216B4DE00A8340D /* Greenery.m4a */; };
+		A7F2D8B82216B4E400A8340D /* PLShortVideoKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8B02216B4DF00A8340D /* PLShortVideoKit.bundle */; };
+		A7F2D8B92216B4E400A8340D /* Whistling_Down_the_Road.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8B12216B4E000A8340D /* Whistling_Down_the_Road.m4a */; };
+		A7F2D8BA2216B4E400A8340D /* sticker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8B22216B4E000A8340D /* sticker.bundle */; };
+		A7F2D8BB2216B4E400A8340D /* counter-35s.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8B32216B4E200A8340D /* counter-35s.m4a */; };
+		A7F2D8BC2216B4E400A8340D /* If_I_Had_a_Chicken.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8B42216B4E200A8340D /* If_I_Had_a_Chicken.m4a */; };
+		A7F2D8BD2216B4E400A8340D /* counter-6s.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8B52216B4E300A8340D /* counter-6s.m4a */; };
+		A7F2D8BE2216B4E400A8340D /* Fire_Breather.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D8B62216B4E300A8340D /* Fire_Breather.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +63,7 @@
 		2041FB4121EED4E500179647 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2041FB4221EED4E500179647 /* CYLPlusButtonSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLPlusButtonSubclass.swift; sourceTree = "<group>"; };
 		2041FB5021EED56700179647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "tea-mall-ios/Assets.xcassets"; sourceTree = "<group>"; };
-		20F0DC1121DEF5C1004DF885 /* tea-mall-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tea-mall-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20F0DC1421DEF5C1004DF885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20F0DC1121DEF5C1004DF885 /* TeaMallios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaMallios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F0DC1621DEF5C1004DF885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20F0DC1921DEF5C1004DF885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20F0DC1B21DEF5C1004DF885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +71,42 @@
 		20F0DC2021DEF5C1004DF885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0FC27DF88F54318851FF63 /* Pods-tea-mall-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tea-mall-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios.release.xcconfig"; sourceTree = "<group>"; };
 		A798851A21F1A44A007FC0DB /* WKWebviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewController.swift; sourceTree = "<group>"; };
+		A7F2D2E122168FAF00A8340D /* TeaPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeaPrefixHeader.pch; sourceTree = "<group>"; };
+		A7F2D3042216938D00A8340D /* Tea-mall-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tea-mall-Header.h"; sourceTree = "<group>"; };
+		A7F2D5DD22169EE900A8340D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		A7F2D5DE22169EE900A8340D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		A7F2D5E42216A15300A8340D /* PLSStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSStickerView.h; sourceTree = "<group>"; };
+		A7F2D5E52216A15300A8340D /* PLSDeleteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSDeleteButton.h; sourceTree = "<group>"; };
+		A7F2D5E62216A15300A8340D /* PLSStickerOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSStickerOverlayView.h; sourceTree = "<group>"; };
+		A7F2D5E72216A15300A8340D /* PLSStickerSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSStickerSelectView.m; sourceTree = "<group>"; };
+		A7F2D5E82216A15300A8340D /* PLSAudioVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSAudioVolumeView.h; sourceTree = "<group>"; };
+		A7F2D5E92216A15300A8340D /* PLSMusicSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSMusicSelectView.h; sourceTree = "<group>"; };
+		A7F2D5EA2216A15300A8340D /* PLSFilterGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSFilterGroup.h; sourceTree = "<group>"; };
+		A7F2D5EB2216A15300A8340D /* PLSVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSVerticalButton.h; sourceTree = "<group>"; };
+		A7F2D5EC2216A15300A8340D /* PLSProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSProgressBar.h; sourceTree = "<group>"; };
+		A7F2D5ED2216A15300A8340D /* PLSStickerOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSStickerOverlayView.m; sourceTree = "<group>"; };
+		A7F2D5EE2216A15300A8340D /* PLSDeleteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSDeleteButton.m; sourceTree = "<group>"; };
+		A7F2D5EF2216A15300A8340D /* PLSStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSStickerView.m; sourceTree = "<group>"; };
+		A7F2D5F02216A15300A8340D /* PLSMusicSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSMusicSelectView.m; sourceTree = "<group>"; };
+		A7F2D5F12216A15300A8340D /* PLSStickerSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSStickerSelectView.h; sourceTree = "<group>"; };
+		A7F2D5F22216A15300A8340D /* PLSAudioVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSAudioVolumeView.m; sourceTree = "<group>"; };
+		A7F2D5F32216A15300A8340D /* PLSProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSProgressBar.m; sourceTree = "<group>"; };
+		A7F2D5F42216A15300A8340D /* PLSVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSVerticalButton.m; sourceTree = "<group>"; };
+		A7F2D5F52216A15300A8340D /* PLSFilterGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSFilterGroup.m; sourceTree = "<group>"; };
+		A7F2D8A62216B4B400A8340D /* UIView+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Alert.m"; sourceTree = "<group>"; };
+		A7F2D8A72216B4B400A8340D /* RecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		A7F2D8A82216B4B400A8340D /* UIView+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Alert.h"; sourceTree = "<group>"; };
+		A7F2D8A92216B4B500A8340D /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		A7F2D8AA2216B4B500A8340D /* RecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
+		A7F2D8AB2216B4B500A8340D /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		A7F2D8AF2216B4DE00A8340D /* Greenery.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Greenery.m4a; sourceTree = "<group>"; };
+		A7F2D8B02216B4DF00A8340D /* PLShortVideoKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLShortVideoKit.bundle; sourceTree = "<group>"; };
+		A7F2D8B12216B4E000A8340D /* Whistling_Down_the_Road.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Whistling_Down_the_Road.m4a; sourceTree = "<group>"; };
+		A7F2D8B22216B4E000A8340D /* sticker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sticker.bundle; sourceTree = "<group>"; };
+		A7F2D8B32216B4E200A8340D /* counter-35s.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "counter-35s.m4a"; sourceTree = "<group>"; };
+		A7F2D8B42216B4E200A8340D /* If_I_Had_a_Chicken.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = If_I_Had_a_Chicken.m4a; sourceTree = "<group>"; };
+		A7F2D8B52216B4E300A8340D /* counter-6s.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "counter-6s.m4a"; sourceTree = "<group>"; };
+		A7F2D8B62216B4E300A8340D /* Fire_Breather.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire_Breather.m4a; sourceTree = "<group>"; };
 		EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tea_mall_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -157,6 +212,7 @@
 		20F0DC0821DEF5C1004DF885 = {
 			isa = PBXGroup;
 			children = (
+				A7F2D305221695BF00A8340D /* oc */,
 				2041FB2E21EED4E500179647 /* Classes */,
 				20F0DC1321DEF5C1004DF885 /* tea-mall-ios */,
 				20F0DC1221DEF5C1004DF885 /* Products */,
@@ -169,7 +225,7 @@
 		20F0DC1221DEF5C1004DF885 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20F0DC1121DEF5C1004DF885 /* tea-mall-ios.app */,
+				20F0DC1121DEF5C1004DF885 /* TeaMallios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,19 +233,69 @@
 		20F0DC1321DEF5C1004DF885 /* tea-mall-ios */ = {
 			isa = PBXGroup;
 			children = (
-				20F0DC1421DEF5C1004DF885 /* AppDelegate.swift */,
 				20F0DC1621DEF5C1004DF885 /* ViewController.swift */,
 				20F0DC1821DEF5C1004DF885 /* Main.storyboard */,
 				20F0DC1B21DEF5C1004DF885 /* Assets.xcassets */,
 				20F0DC1D21DEF5C1004DF885 /* LaunchScreen.storyboard */,
 				20F0DC2021DEF5C1004DF885 /* Info.plist */,
+				A7F2D2E122168FAF00A8340D /* TeaPrefixHeader.pch */,
+				A7F2D3042216938D00A8340D /* Tea-mall-Header.h */,
 			);
 			path = "tea-mall-ios";
+			sourceTree = "<group>";
+		};
+		A7F2D305221695BF00A8340D /* oc */ = {
+			isa = PBXGroup;
+			children = (
+				A7F2D8B52216B4E300A8340D /* counter-6s.m4a */,
+				A7F2D8B32216B4E200A8340D /* counter-35s.m4a */,
+				A7F2D8B62216B4E300A8340D /* Fire_Breather.m4a */,
+				A7F2D8AF2216B4DE00A8340D /* Greenery.m4a */,
+				A7F2D8B42216B4E200A8340D /* If_I_Had_a_Chicken.m4a */,
+				A7F2D8B02216B4DF00A8340D /* PLShortVideoKit.bundle */,
+				A7F2D8B22216B4E000A8340D /* sticker.bundle */,
+				A7F2D8B12216B4E000A8340D /* Whistling_Down_the_Road.m4a */,
+				A7F2D8AB2216B4B500A8340D /* EditViewController.h */,
+				A7F2D8A92216B4B500A8340D /* EditViewController.m */,
+				A7F2D8A72216B4B400A8340D /* RecordingViewController.h */,
+				A7F2D8AA2216B4B500A8340D /* RecordingViewController.m */,
+				A7F2D8A82216B4B400A8340D /* UIView+Alert.h */,
+				A7F2D8A62216B4B400A8340D /* UIView+Alert.m */,
+				A7F2D5E32216A15300A8340D /* UI+Tools */,
+			);
+			path = oc;
+			sourceTree = "<group>";
+		};
+		A7F2D5E32216A15300A8340D /* UI+Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7F2D5E42216A15300A8340D /* PLSStickerView.h */,
+				A7F2D5E52216A15300A8340D /* PLSDeleteButton.h */,
+				A7F2D5E62216A15300A8340D /* PLSStickerOverlayView.h */,
+				A7F2D5E72216A15300A8340D /* PLSStickerSelectView.m */,
+				A7F2D5E82216A15300A8340D /* PLSAudioVolumeView.h */,
+				A7F2D5E92216A15300A8340D /* PLSMusicSelectView.h */,
+				A7F2D5EA2216A15300A8340D /* PLSFilterGroup.h */,
+				A7F2D5EB2216A15300A8340D /* PLSVerticalButton.h */,
+				A7F2D5EC2216A15300A8340D /* PLSProgressBar.h */,
+				A7F2D5ED2216A15300A8340D /* PLSStickerOverlayView.m */,
+				A7F2D5EE2216A15300A8340D /* PLSDeleteButton.m */,
+				A7F2D5EF2216A15300A8340D /* PLSStickerView.m */,
+				A7F2D5F02216A15300A8340D /* PLSMusicSelectView.m */,
+				A7F2D5F12216A15300A8340D /* PLSStickerSelectView.h */,
+				A7F2D5F22216A15300A8340D /* PLSAudioVolumeView.m */,
+				A7F2D5F32216A15300A8340D /* PLSProgressBar.m */,
+				A7F2D5F42216A15300A8340D /* PLSVerticalButton.m */,
+				A7F2D5F52216A15300A8340D /* PLSFilterGroup.m */,
+			);
+			path = "UI+Tools";
 			sourceTree = "<group>";
 		};
 		FA3CED7DCA19BB4D265F4102 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7F2D5DD22169EE900A8340D /* libstdc++.6.0.9.tbd */,
+				A7F2D5DE22169EE900A8340D /* libstdc++.tbd */,
 				EAE91A4FE9428EA7942FCF8F /* Pods_tea_mall_ios.framework */,
 			);
 			name = Frameworks;
@@ -214,7 +320,7 @@
 			);
 			name = "tea-mall-ios";
 			productName = "tea-mall-ios";
-			productReference = 20F0DC1121DEF5C1004DF885 /* tea-mall-ios.app */;
+			productReference = 20F0DC1121DEF5C1004DF885 /* TeaMallios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,6 +346,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 20F0DC0821DEF5C1004DF885;
 			productRefGroup = 20F0DC1221DEF5C1004DF885 /* Products */;
@@ -257,9 +364,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F0DC1F21DEF5C1004DF885 /* LaunchScreen.storyboard in Resources */,
+				A7F2D8BB2216B4E400A8340D /* counter-35s.m4a in Resources */,
 				2041FB4621EED4E500179647 /* NextHomeViewController.xib in Resources */,
+				A7F2D8BE2216B4E400A8340D /* Fire_Breather.m4a in Resources */,
+				A7F2D8B72216B4E400A8340D /* Greenery.m4a in Resources */,
+				A7F2D8BA2216B4E400A8340D /* sticker.bundle in Resources */,
 				20F0DC1A21DEF5C1004DF885 /* Main.storyboard in Resources */,
+				A7F2D8B92216B4E400A8340D /* Whistling_Down_the_Road.m4a in Resources */,
+				A7F2D8BC2216B4E400A8340D /* If_I_Had_a_Chicken.m4a in Resources */,
 				2041FB5121EED56700179647 /* Assets.xcassets in Resources */,
+				A7F2D8BD2216B4E400A8340D /* counter-6s.m4a in Resources */,
+				A7F2D8B82216B4E400A8340D /* PLShortVideoKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +408,22 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-tea-mall-ios/Pods-tea-mall-ios-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MMMaterialDesignSpinner/MMMaterialDesignSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMMaterialDesignSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Qiniu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,15 +439,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				2041FB4521EED4E500179647 /* HomeViewController.swift in Sources */,
+				A7F2D5FD2216A15300A8340D /* PLSVerticalButton.m in Sources */,
 				2041FB4F21EED4E500179647 /* CYLPlusButtonSubclass.swift in Sources */,
 				A798851B21F1A44A007FC0DB /* WKWebviewController.swift in Sources */,
+				A7F2D8AD2216B4B500A8340D /* EditViewController.m in Sources */,
 				2041FB4721EED4E500179647 /* ConnectionViewController.swift in Sources */,
+				A7F2D5FE2216A15300A8340D /* PLSFilterGroup.m in Sources */,
 				2041FB4321EED4E500179647 /* PersonalViewController.swift in Sources */,
+				A7F2D5FB2216A15300A8340D /* PLSAudioVolumeView.m in Sources */,
 				2041FB4821EED4E500179647 /* ViewController.swift in Sources */,
+				A7F2D5F92216A15300A8340D /* PLSStickerView.m in Sources */,
+				A7F2D8AE2216B4B500A8340D /* RecordingViewController.m in Sources */,
+				A7F2D8AC2216B4B500A8340D /* UIView+Alert.m in Sources */,
+				A7F2D5FC2216A15300A8340D /* PLSProgressBar.m in Sources */,
 				2041FB4A21EED4E500179647 /* ColorExtensions.swift in Sources */,
+				A7F2D5F72216A15300A8340D /* PLSStickerOverlayView.m in Sources */,
 				2041FB4421EED4E500179647 /* NextHomeViewController.swift in Sources */,
+				A7F2D5FA2216A15300A8340D /* PLSMusicSelectView.m in Sources */,
 				2041FB4E21EED4E500179647 /* MainTabBarController.swift in Sources */,
+				A7F2D5F82216A15300A8340D /* PLSDeleteButton.m in Sources */,
 				2041FB4C21EED4E500179647 /* MessageViewController.swift in Sources */,
+				A7F2D5F62216A15300A8340D /* PLSStickerSelectView.m in Sources */,
 				2041FB4D21EED4E500179647 /* PublishViewController.swift in Sources */,
 				2041FB4B21EED4E500179647 /* AppDelegate.swift in Sources */,
 				2041FB4921EED4E500179647 /* UIColor+Extension.swift in Sources */,
@@ -464,12 +601,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VE3N87A48U;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oc/Third_Part/TuSDK/TuSDK-framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/tea-mall-ios/TeaPrefixHeader.pch";
 				INFOPLIST_FILE = "tea-mall-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teamodel.teamodel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.PLShortVideoKitDemo;
+				PRODUCT_MODULE_NAME = TeaMallios;
+				PRODUCT_NAME = TeaMallios;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/tea-mall-ios/Tea-mall-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -481,12 +631,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VE3N87A48U;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oc/Third_Part/TuSDK/TuSDK-framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/tea-mall-ios/TeaPrefixHeader.pch";
 				INFOPLIST_FILE = "tea-mall-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teamodel.teamodel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.PLShortVideoKitDemo;
+				PRODUCT_MODULE_NAME = TeaMallios;
+				PRODUCT_NAME = TeaMallios;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/tea-mall-ios/Tea-mall-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

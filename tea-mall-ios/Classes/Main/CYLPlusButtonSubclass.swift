@@ -43,7 +43,7 @@ class CYLPlusButtonSubclass: CYLPlusButton,CYLPlusButtonSubclassing {
     }
     
     static func plusChildViewController() -> UIViewController! {
-        let vc = PublishViewController()
+        let vc = RecordingViewController()
         let nav = UINavigationController(rootViewController: vc)
         return nav
         

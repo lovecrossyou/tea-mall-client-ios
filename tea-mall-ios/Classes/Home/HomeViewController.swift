@@ -7,38 +7,47 @@
 //
 
 import UIKit
+import WebKit
+import SnapKit
 
-private let cellIdentifier = "cell"
-
-final class HomeViewController: UITableViewController {
-
+class HomeViewController: UIViewController {
+    var webview = WKWebView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "首页"
-        self.navigationController?.tabBarItem.badgeValue = "3"
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
-    }
-}
-
-
-extension HomeViewController{
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-        cell.textLabel?.text = "我是第\(indexPath.row)行"
-        return cell
-    }
-    
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 50
-    }
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let vc = NextHomeViewController()
-        vc.hidesBottomBarWhenPushed = true
-        self.navigationController?.pushViewController(vc, animated: true)
+        let superview = self.view
+        superview!.backgroundColor = UIColor.white
+        //创建网址
+        let url = NSURL(string: "http://localhost:8099/h5/#/home")
+        let webview = WKWebView()
+        if #available(iOS 11.0, *) {
+            webview.scrollView.contentInsetAdjustmentBehavior = .never;
+        }
+        view.backgroundColor  = UIColor.red
+        
+        superview!.addSubview(webview)
+        webview.snp.makeConstraints { (make) in
+            make.top.equalTo(superview!).offset(0)
+            make.left.equalTo(superview!).offset(0)
+            make.right.equalTo(superview!).offset(0)
+            make.bottom.equalTo(superview!).offset(-82)
+        }
+        
+        //创建请求
+        let request = NSURLRequest(url: url! as URL)
+        //加载请求
+        webview.load(request as URLRequest)
+        //添加wkwebview
+        // Do any additional setup after loading the view.
+        
+        self.navigationController?.navigationBar.isHidden = true
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
     
 }

@@ -19,7 +19,7 @@ class WKWebviewController: UIViewController {
         let superview = self.view
         superview!.backgroundColor = UIColor.white
         //创建网址
-        let url = NSURL(string: "http://10.100.1.116:8000/")
+        let url = NSURL(string: "https://www.baidu.com")
         let webview = WKWebView()
         if #available(iOS 11.0, *) {
             webview.scrollView.contentInsetAdjustmentBehavior = .never;
@@ -41,7 +41,7 @@ class WKWebviewController: UIViewController {
         //添加wkwebview
         // Do any additional setup after loading the view.
         
-        self.navigationController?.navigationBar.isHidden = true
+        //self.navigationController?.navigationBar.isHidden = true
         
 
         // Do any additional setup after loading the view.

@@ -1,0 +1,17 @@
+//
+//  TeaPrefixHeader.pch
+//  tea-mall-ios
+//
+//  Created by tianhaojie on 2019/2/15.
+//  Copyright © 2019 lovecross. All rights reserved.
+//
+
+#ifndef TeaPrefixHeader_pch
+#define TeaPrefixHeader_pch
+
+#import "Tea-mall-Header.h"
+#define kTestPch "测试好似不好使"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TeaPrefixHeader_pch */
