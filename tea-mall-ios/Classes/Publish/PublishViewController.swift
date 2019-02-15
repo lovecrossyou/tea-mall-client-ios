@@ -19,7 +19,7 @@ class PublishViewController: UIViewController {
         let superview = self.view
         superview!.backgroundColor = UIColor.white
         //创建网址
-        let url = NSURL(string: "http://192.168.1.235:8099/h5/")
+        let url = NSURL(string: "http://localhost:8099/h5/#/home")
         let webview = WKWebView()
         if #available(iOS 11.0, *) {
             webview.scrollView.contentInsetAdjustmentBehavior = .never;
@@ -31,7 +31,7 @@ class PublishViewController: UIViewController {
             make.top.equalTo(superview!).offset(0)
             make.left.equalTo(superview!).offset(0)
             make.right.equalTo(superview!).offset(0)
-            make.bottom.equalTo(superview!).offset(-85)
+            make.bottom.equalTo(superview!).offset(-82)
         }
         
         //创建请求
